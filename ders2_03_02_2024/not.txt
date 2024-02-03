@@ -23,9 +23,9 @@ GİT CONFİG ÖNEMLİ DEĞİL BENİM GİT NOTLARIMDA YOK DİYE YAZDIM !
 git init
 git add .
 git commit -m "first commit"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/firatkaanbitmez/NetKatmanliMimariWorkShop_techcareer.git
-git push origin main --force
+git push origin master --force
 
 
 
