@@ -1,0 +1,32 @@
+
+Microservices Hocanın Önerdiği Vİdeo:
+https://www.youtube.com/watch?v=GBTdnfD6s5Q
+
+
+***İkinci Ders Giriş
+
+Versiyon Kontrol Sistemi
+    Versiyon kontrol sistemleri döküman üzerinde yaptığımız değişiklileri adım adım kaydeden ve isterseniz bunu internet üzeriden depoad(repo) saklamamızı ve yönetmemizi sağlayan bir sistemdir. Git, SVN, BitKeeper, Mercurial sürüm kontrol sistemlerine örnek olarak gösterilir.
+
+Git => açık kaynak kodlu bir versiyon sürüm kontrol sistemidir.
+
+Neden Git Kullanılıyor? =>> Geliştirme süreçlerini izlemek, Projede yapılan değişikliklerin nerede ve ne zaman yapıldığını izlemek, Yanlış veya hatalı işlem yapıldığında daha önceki çalışan sürüme dönmek için
+
+Git Kullanırken Commitlere ÖNEM VER. Her İşlemden Sonra Commit ET!
+
+GİT CONFİG ÖNEMLİ DEĞİL BENİM GİT NOTLARIMDA YOK DİYE YAZDIM ! 
+
+    .gitignore >> Proje ilk oluşturulduğunda gitignore'u dahil etmek daha iyi olur.
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/firatkaanbitmez/NetKatmanliMimariWorkShop_techcareer.git
+git push origin main --force
+
+
+
+
