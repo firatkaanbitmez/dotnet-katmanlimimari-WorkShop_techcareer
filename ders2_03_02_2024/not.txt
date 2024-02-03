@@ -1,7 +1,4 @@
 
-Microservices Hocanın Önerdiği Vİdeo:
-https://www.youtube.com/watch?v=GBTdnfD6s5Q
-
 
 ***İkinci Ders Giriş
 
@@ -29,4 +26,21 @@ git push origin master --force
 
 
 
+Solid Prensipleri
+Şirket SonarQube kullanıyor. Kodunuzu test ederek solid prensiplerine uygun olmayan yerleri gösteriyor.
+
+SOLID Prensipleri
+S =>> Single Responsibilty Prensibi bir method bir işi yapsın
+O =>> Open Closed Kodunuz değiştirmeye açık değil ama geliştirmeye açık
+L =>> Liskov substitution Kodlarımızda herhangi bir değişiklik yapmaya gerek duymadan alt sınıfları üst sınıfların yerine kullanabilmeliyiz.
+I =>> Interface segregation Sorumlulukların hepsini tek bir arayüze toplamak yerine daha özelleştirilmiş birden fazla arayüz oluşturmalıyız.
+D =>> Dependency Inversion  Sınıflar arası bağımlılıklar olabildiğince az olmalıdır 
+
+
+
+https://learn.microsoft.com/tr-tr/dotnet/csharp/linq/get-started/introduction-to-linq-queries
+
+https://medium.com
+
+https://github.com/KardelRuveyda/dotnet-techcareer-workshop
 
