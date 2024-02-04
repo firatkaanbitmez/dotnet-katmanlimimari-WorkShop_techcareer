@@ -1,0 +1,70 @@
+
+Microservices Hocanın Önerdiği Vİdeo:
+https://www.youtube.com/watch?v=GBTdnfD6s5Q
+
+
+
+**Monolith, Microservices, SOA
+
+   *** Monolithic Mimari =>>  Her katmanın kendine göre görevi var. 
+
+        Desktop Browser => 
+                                Load Balancer  =>  Services 
+        Mobile Device   =>         
+
+
+    Avantajları => Modüllerim tek bir solutionda olduğu için test edilebilirliği daha kolay, Deployment işlemleride daha kolay,  ölçeklendirme oldukça kolaydır.
+    Dezavantajları => Bakım proje büyüdükçe zorlaşır, Deploy sorunları, başlama süresi uzar, güvenilirlik
+
+    **Uygunluk dahilinde bizim projemize hangi mimari uygunsa onu seçmeliyiz.
+
+    ***SOA(Service Oriented Architecture)
+        Monolitik mimarida servisleri ayırmamıştır. SOA'da servisleri ayırabiliriz.
+        Dağıtık yazılım sistemlerin kalitesini artırmayı hedefliyoruz
+        Serviceslerin dili bağımsız 
+
+
+        Cloud Services
+                            =>    Enterprise Service Bus (ESB) =>  Services    => DB
+        Browser(human) 
+
+        Avantajları=> bakım onarım kolaydır, güvenilirk, yatay ve dikey ölçeklendirme ,platform bağımsızdır,üretkenlik artırmayı
+        Dezavantajları => overload ,yüksek maaliyet ,yüksek bant genişliği(Bir serviceste bir yogunluk varsa o servis için büyük bant genişliği gerekebilir buda maaliyeti etkiler)
+
+
+
+    *** Microservies Architecture
+        Microservices mimarısnı bir mimarı olarka değilde SOA'nın bir yorumu olarak görebiliriz.
+        Microservices ilk seçeneğiniz olmamalı.!
+        Microservices'de tamamen bağımzsız olmasını istiyor. DB'de dahil bağımsız olsun istiyor. Ama SOA'da DB bağlı oluyor.
+
+        Avantajları=> Çok dilli bir mimari olması, Kolay ölçeklendirme(Sadece grafiği yükske olan sunucuyu ölçeklendirme yapmamız yeterli),Yenilik yapmak daha kolay, Her mikroservisin kendilerine ait DB'leri var , Ölçeklendirme monolitihe göre daha kolay
+        Dezavantajları => Debug kolay değil ,hata yönetimi kolay değil ,implementasyon kolay değil
+
+
+
+https://ruveydakardelcetin.medium.com/n-layer-proje-yapısı-katmanlar-arasında-bir-şehir-hikayesi-%EF%B8%8F-66f3a71c1f41
+
+    **N-Layer Proje Yapısı:
+        Core -> Repository -> Service -> API
+
+    Bir katmanlı mimaride en az üç katman olmalı 
+    Temel Katmanlar ve İsimlendirmeleri  “Core,” “Repository,” ve “Service” 
+    Business Katmanı: İş mantığı kurallarını içerir.
+    Data Access Katmanı: Veri erişimi ve veritabanı işlemlerini içerir.
+
+    Core Katmanı Detayları=>
+        Genel iş mantığı ve temel işlevselliği içerir.
+        Projedeki temel modelleri, yardımcı sınıfları ve ortak araçları içerir.
+        Bu katman, projenin genel yapısını oluşturan temel bileşenleri içerir.
+
+
+
+
+
+
+
+VisualStudio'da Yeni Bİr proje oluşturduk.ve Katmanlarını oluşturduk.
+
+
+https://www.youtube.com/playlist?list=PLg9gsnfsIB3x8ryYIlcMSLHyiSJIB75vJ
