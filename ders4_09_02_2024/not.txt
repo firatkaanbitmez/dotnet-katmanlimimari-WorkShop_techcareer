@@ -1,0 +1,26 @@
+DotnetWorkShop Proje üzerinde çalışmakla başladık Igeneric Repository katmanını oluşturarak işe başladık.
+
+ public interface IGenericRepository<T> where T : class
+ {
+    Task<T> GetByIdAsync(int id);
+     //user.GetAll(s => s.username == "kardel").Tolist();   bu şekilde bir filtrelemede yapabiliriz.
+     IQueryable<T> GetAll(Expression<Func<T,bool>>expression); //Bütün değerlerin dönmesini istiyorum bütün tablodaki değerlerin dönmesini ama dönüşte değerlerin Iquerylable dönsün istiyorum.
+     //Iqueryable ile veriyi istediğimizde her seferinde veritabanına giderek veritabanını yormuyoruz.
+
+     IQueryable<T> Where(Expression<Func<T,bool>>expression);
+
+     Task AddAsync(T entity); //team olabilir user olabilir user profile olabilir bu yüzden T entitiy veriyoruz
+
+     Task AddRangeAsync(IEnumerable<T> entities); // asenkron metodları niçin kullanıyoruz var olan tradeleri blocklamamak için kullanıyoruz.
+
+     void Update( T entity, int id);
+     void Remove(T entity);
+     void RemoveRange(IEnumerable<T> entities);
+    
+ }
+
+
+
+IServices Kodlandı.
+
+Nuget ile gerekli paketler yüklendi.................................... Projelerim/DotnetWorkShop projesi üzeirnde çalışıldı.
