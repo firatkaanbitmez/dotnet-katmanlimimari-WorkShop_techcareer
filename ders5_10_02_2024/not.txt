@@ -1,0 +1,20 @@
+***DotnetworkShop Projesine devam edildi
+
+Repository katmanı üzeirnde kaldığımız yerden devam ediyoruz.
+
+Services işlemleri eklendi.TeamService,UserService,UserProfileService
+
+Mapping işlemlerinin projeye dahil edilmesi
+
+Validation işlemleri eklendi
+
+
+https://docs.fluentvalidation.net/en/latest/aspnet.html
+
+
+https://jwt.io
+
+Idendity Auntication system added
+
+
+https://ruveydakardelcetin.medium.com/şehir-enerji-yönetimi-bir-servis-katmanı-öyküsü-62f84f1d6287
