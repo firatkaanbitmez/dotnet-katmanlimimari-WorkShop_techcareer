@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetWorkshop.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965a2d88e162adb867424ace0884dad8e3fcc6f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f90fe969c915090173a450976f7bc4448557d285")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetWorkshop.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetWorkshop.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
