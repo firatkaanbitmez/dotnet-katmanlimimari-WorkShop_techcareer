@@ -10,3 +10,5 @@ Eğitim Süresi: 2 Hafta 15 Saat
 
 
 [Dotnet Tech Career Workshop](https://github.com/KardelRuveyda/dotnet-techcareer-workshop) etkinliği için açılmış Repo
+
+![92585109510380](https://github.com/firatkaanbitmez/dotnet-katmanlimimari-WorkShop_techcareer/assets/74864221/462457b2-2e02-4505-868a-2ffd9c2248ba)
